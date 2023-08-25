@@ -1,5 +1,5 @@
 [package]
-name = "proxy-server-tutorial"
+name = "proxy-dev"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,4 +9,4 @@ edition = "2021"
 tokio = { version = "1", features = ["full"] }
 hyper = { version = "0.14.27", features = ["full"] }
 tower = { version = "0.4.13", features = ["full"] }
-async-trait = "0.1.73"
+thiserror = { version = "1.0.47" }
