@@ -10,4 +10,6 @@ tokio = { version = "1", features = ["full"] }
 hyper = { version = "0.14.27", features = ["full"] }
 tower = { version = "0.4.13", features = ["full"] }
 thiserror = { version = "1.0.47" }
-reqwest = { version = "0.11.20" }
+reqwest = { version = "0.11.20", features = ["gzip", "deflate"] }
+http = { version = "0.2.9" }
+flate2 = "1.0"
